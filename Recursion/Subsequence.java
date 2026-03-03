@@ -16,9 +16,7 @@ public class Subsequence{
             return ;
         }
         list.add(nums[idx]);
-        sum=sum+nums[idx];
-        subsequence(nums,idx+1,sum,list,k);
-        sum=sum-nums[idx];
+        subsequence(nums,idx+1,sum+nums[idx],list,k);
         list.remove(list.size() - 1);
         subsequence(nums,idx+1,sum,list,k);
 
