@@ -1,3 +1,4 @@
+package Array;
 // package Striver;
 import java.util.*;
 public class RotateArray {
