@@ -12,7 +12,7 @@ public class Permutations {
         System.out.println(ans);
 
     } 
-    public static void helper(int[] nums,int idx,List list,List<List<Integer>> ans ){
+    public static void helper(int[] nums,int idx,List<Integer> list,List<List<Integer>> ans ){
         int n=nums.length;
         if(idx==n){
             ans.add(new ArrayList<>(list));

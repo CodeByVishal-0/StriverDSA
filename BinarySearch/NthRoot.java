@@ -1,4 +1,4 @@
-package Recursion;
+package BinarySearch;
 
 public class NthRoot {
     public static void main(String[]args){

@@ -16,7 +16,7 @@ public class CombinationSum {
             ans.add(new ArrayList<>(list));
             return ;
         }
-        if(n>nums.length-1||target<0){
+        if(n==nums.length||target<0){
             return ;
         }
 

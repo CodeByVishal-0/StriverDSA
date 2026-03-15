@@ -1,4 +1,4 @@
-package Recursion;
+package DynamicProgramming;
 
 public class KFrogJump {
     public static void main(String[] args){
