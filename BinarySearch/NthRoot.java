@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class NthRoot {
     public static void main(String[]args){
-        System.out.println(root(16,4));
+        System.out.println(root(9,3));
     }
     public static int root(int x, int p){
         int start=1;
