@@ -5,6 +5,9 @@ import java.util.Scanner;
 class ATM {
     float balance;
     int pin =5678;
+    ATM(){
+        checkPin();
+    }
     public void checkPin(){
         System.out.println("Enter Your Pin : ");
         @SuppressWarnings("resource")
@@ -75,6 +78,5 @@ class ATM {
 public class ATMMachine{
     public static void main(String[] args){
         ATM acc1= new ATM();
-        acc1.checkPin();
     }
 }
